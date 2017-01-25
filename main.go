@@ -15,7 +15,6 @@ func main() {
 		ConfigPath: "cloud-torrent.json",
 	}
 
-	o := opts.New(&s)
 	o.Version(VERSION)
 	o.PkgRepo()
 	o.LineWidth = 96
