@@ -3,16 +3,16 @@ package main
 import (
 	"log"
 
-	"github.com/racta/cloud-torrent/server"
-	"github.com/racta/opts"
+	"github.com/jpillora/cloud-torrent/server"
+	"github.com/jpillora/opts"
 )
 
 var VERSION = "0.0.0-src" //set with ldflags
 
 func main() {
 	s := server.Server{
-		Title:      "Cloud Torrent",
-		Port:       3000,
+		Title:      "Animeandtv",
+		Port:      45682,
 		ConfigPath: "cloud-torrent.json",
 	}
 
